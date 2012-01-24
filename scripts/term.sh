@@ -1,6 +1,6 @@
 #!/bin/sh
 
-terminal="xterm"
+terminal="xfce4-terminal"
 terminal_wm_class="$terminal"
 terminal_exec="$terminal"
 

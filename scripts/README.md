@@ -13,5 +13,8 @@ attention.sh:
 attention_undo.sh: 
 	Jump back to the window you were in before calling attention.sh. Bind this to, e.g. Alt-shift-x.
 
-term.sh: 
-	Either focus the terminal on your current desktop, the first one found on another desktop, or create a terminal. Edit it to change $terminal to your preferred terminal.
+find_and_focus_x.sh <app>
+	Either focus the app on your current desktop, the first one found on another desktop, or start it. 
+
+cycle_apps.sh
+    Cycles through the array of apps using find_and_focus_x.sh

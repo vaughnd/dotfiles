@@ -1,6 +1,9 @@
 #!/bin/bash
 # Cycles through the following apps using find_and_focus_x.sh
 apps=("emacs" "konsole" "google-chrome")
+if [ "$1" == "reverse" ]; then
+    apps=("google-chrome" "konsole" "emacs")
+fi
 
 LASTAPP_FILE=~/.lastapp
 
